@@ -1,0 +1,26 @@
+{
+    "name": "wolverineo250kr/yii2-pevnev-statistics",
+    "description": "Statistisc Module based on Yii2 framework",
+    "keywords": ["yii", "module", "statistics"],
+    "minimum-stability": "dev",	
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Певнев Константин Геннадьевич",
+            "email": "wolverineo250kr@yandex.ru"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*", 
+		"wolverineo250kr/yii2-pevnev-text-helper": "*",
+		"wolverineo250kr/yii2-pevnev-domain-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wolverineo250kr\\modules\\statistics\\": ""
+        }
+    }
+}
